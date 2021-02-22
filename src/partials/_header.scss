@@ -1,25 +1,61 @@
 header {
 
+  // header-top
   .header-top {
-    min-height: 100px;
     background-color: $black;
-    color: white;
 
-    .info {
-      @include flex(flex-end);
-      color: #989898;
-
-      ul {
-        @include flex;
-
-        li {
-          margin-right: 25px;
-        }
-
-      }
-
+    a {
+      text-decoration: none;
     }
 
+    .container {
+      min-height: 100px;
+      @include flex(space-around, flex-end);
+      flex-direction: column;
+    }
+
+    // info
+    .info {
+      @include flex(flex-end);
+      ul {
+        @include flex;
+        li {
+          margin-right: 25px;
+          font-size: 12px;
+
+          a {
+            color: #989898;
+          }
+          i {
+            margin-right: 7px;
+            font-size: 15px;
+            color: #009cff;
+          }
+
+        }
+      }
+    }
+
+    // navbar
+    .navbar {
+      ul {
+        @include flex(center);
+        li {
+          img {
+            width: 90px;
+          }
+          a {
+            padding: 15px 25px;
+            color: white;
+            font-size: 14px;
+          }
+          i {
+            font-size: 9px;
+            color: #837b65;
+          }
+        }
+      }
+    }
   }
 
 }

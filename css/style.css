@@ -14,16 +14,25 @@ ul {
 }
 
 header .header-top {
-  min-height: 100px;
   background-color: #101010;
-  color: white;
+}
+
+header .header-top a {
+  text-decoration: none;
+}
+
+header .header-top .container {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 header .header-top .info {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #989898;
 }
 
 header .header-top .info ul {
@@ -34,5 +43,37 @@ header .header-top .info ul {
 
 header .header-top .info ul li {
   margin-right: 25px;
+  font-size: 12px;
+}
+
+header .header-top .info ul li a {
+  color: #989898;
+}
+
+header .header-top .info ul li i {
+  margin-right: 7px;
+  font-size: 15px;
+  color: #009cff;
+}
+
+header .header-top .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-top .navbar ul li img {
+  width: 90px;
+}
+
+header .header-top .navbar ul li a {
+  padding: 15px 25px;
+  color: white;
+  font-size: 14px;
+}
+
+header .header-top .navbar ul li i {
+  font-size: 9px;
+  color: #837b65;
 }
 
