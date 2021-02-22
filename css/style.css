@@ -1,3 +1,17 @@
+.button {
+  background-color: #101010;
+  color: white;
+  font-size: 20px;
+  padding: 5px 30px 8px;
+  border: 2px solid #101010;
+  text-transform: uppercase;
+}
+
+.button.button-inverse {
+  background-color: transparent;
+  color: #101010;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +26,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -19,10 +37,6 @@ ul {
 
 header .header-top {
   background-color: #101010;
-}
-
-header .header-top a {
-  text-decoration: none;
 }
 
 header .header-top .container {
@@ -83,10 +97,39 @@ header .header-top .navbar ul li i {
 }
 
 .jumbotron {
-  height: 480px;
   background-image: url("https://www.painterartist.com/static/ptr/images/home/bg-painter-home.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.jumbotron .container {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.jumbotron .container div, .jumbotron .container h1, .jumbotron .container h3, .jumbotron .container p {
+  width: 540px;
+}
+
+.jumbotron .container p {
+  line-height: 1.5;
+}
+
+.jumbotron .jumbo-top img {
+  width: 250px;
+}
+
+.jumbotron .jumbo-top p {
+  margin: 15px 0 35px;
+  font-size: 21px;
+}
+
+.jumbotron .jumbo-sale {
+  margin: 15px 0 35px;
+  color: #c70cb9;
 }
 

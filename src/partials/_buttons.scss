@@ -1,0 +1,13 @@
+.button {
+  background-color: $black;
+  color: white;
+  font-size: 20px;
+  padding: 5px 30px 8px;
+  border: 2px solid $black;
+  text-transform: uppercase;
+
+  &.button-inverse {
+    background-color: transparent;
+    color: $black;
+  }
+}

@@ -4,10 +4,6 @@ header {
   .header-top {
     background-color: $black;
 
-    a {
-      text-decoration: none;
-    }
-
     .container {
       min-height: 100px;
       @include flex(space-around);
