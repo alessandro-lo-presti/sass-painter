@@ -133,3 +133,29 @@ header .header-top .navbar ul li i {
   color: #c70cb9;
 }
 
+footer .footer-top .footer-nav .container {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .footer-top .footer-nav h4 {
+  margin-top: 15px 0 5px;
+  font-size: 16px;
+}
+
+footer .footer-top .footer-nav li {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+footer .footer-top .footer-nav a {
+  color: #4d4d4d;
+}
+
+footer .footer-bottom {
+  height: 90px;
+  background-color: #1e1e1e;
+}
+
