@@ -10,13 +10,14 @@ header {
 
     .container {
       min-height: 100px;
-      @include flex(space-around, flex-end);
+      @include flex(space-around);
       flex-direction: column;
     }
 
     // info
     .info {
       @include flex(flex-end);
+      align-self: flex-end;
       ul {
         @include flex;
         li {
