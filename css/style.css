@@ -1,1 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+header .header-top {
+  min-height: 100px;
+  background-color: #101010;
+  color: white;
+}
+
+header .header-top .info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #989898;
+}
+
+header .header-top .info ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .header-top .info ul li {
+  margin-right: 25px;
+}
 
