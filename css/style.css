@@ -20,6 +20,7 @@
 
 body {
   color: #101010;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -136,18 +137,22 @@ header .header-top .navbar ul li i {
 footer .footer-top .footer-nav .container {
   padding: 40px 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 
+footer .footer-top .footer-nav .container div {
+  flex-basis: 25%;
+}
+
 footer .footer-top .footer-nav h4 {
-  margin-top: 15px 0 5px;
+  margin: 15px 0 10px;
   font-size: 16px;
 }
 
 footer .footer-top .footer-nav li {
-  margin: 5px 0;
-  font-size: 14px;
+  margin: 10px 0;
+  font-size: 13px;
 }
 
 footer .footer-top .footer-nav a {
@@ -157,5 +162,29 @@ footer .footer-top .footer-nav a {
 footer .footer-bottom {
   height: 90px;
   background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-bottom img {
+  margin: 15px;
+}
+
+footer .footer-bottom ul {
+  margin: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .footer-bottom ul li {
+  margin-left: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+footer .footer-bottom ul a {
+  color: #7a858d;
 }
 
